@@ -55,14 +55,76 @@
       background: #F8F9FA;
       border: 1px solid #F8F9FA;
       border-radius: 4px;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      text-align: center;
 
+      color: #000000;
     }
+
+    .button-box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 26px;
+      width: 268px;
+      margin: 0 auto;
+      margin-top: 26px;
+    }
+
+    .button-box button:nth-child(1) {
+      width: 111px;
+      height: 36px;
+      background: #F8F9FA;
+      border: 1px solid #F8F9FA;
+      border-radius: 4px;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      text-align: center;
+
+      color: #000000;
+    }
+
+    .button-box button:nth-child(2) {
+      width: 111px;
+      height: 36px;
+      background: #F8F9FA;
+      border: 1px solid #F8F9FA;
+      border-radius: 4px;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      text-align: center;
+
+      color: #000000;
+    }
+
+
   </style>
 </head>
 <body>
-  <h1>Hamgle</h1>
-  <input type="text">
-  <button>Google 검색</button>
-  <button>I'm Feeling Lucky</button>
+  <h1>
+    <span>H</span>
+    <span>a</span>
+    <span>m</span>
+    <span>g</span>
+    <span>l</span>
+    <span>e</span>
+  </h1>
+  <form action="https://www.google.com/search" method="get">
+    <input type="text" name="q">
+    <div class="button-box">
+      <button>Google 검색</button>
+      <button>I'm Feeling Lucky</button>
+    </div>
+  </form>
 </body>
 </html>
